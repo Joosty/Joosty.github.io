@@ -1,1 +1,58 @@
+---
+title: "Digital Signal Acquisition and Processing with Multi-Sensor Integration"
+excerpt: "Comprehensive analysis of sensor data acquisition and digital signal processing techniques using Q-Arena tracking, FSR sensors, and IMU systems.<br/><img src='/images/imu_signal_analysis.png' width='300'>"
+collection: portfolio
+---
 
+**Module Title**: Digital Signal Acquisition and Processing (EMS707U) | **Location**: London, UK | **Dates**: Jan 2025 - May 2025
+
+This coursework project demonstrates practical implementation of data acquisition systems and advanced digital signal processing techniques. Through hands-on laboratory work with multiple sensor types, the project explores real-world signal conditioning, filtering, and analysis methodologies essential for modern engineering applications.
+
+### Project Overview:
+
+- **Multi-Sensor Data Acquisition**: The study integrates three distinct sensor systems: Q-Arena optical tracking for motion validation, Force Sensing Resistors (FSR) for weight measurement, and Inertial Measurement Units (IMU) for vibration analysis across various frequency and amplitude combinations.
+
+- **Signal Processing Pipeline**: Implementation of comprehensive DSP techniques including Fast Fourier Transform (FFT) analysis, frequency domain characterization, and digital filter design using second-order Butterworth IIR bandpass filters to optimize signal-to-noise ratios.
+
+- **MATLAB Integration**: Development of custom MATLAB scripts for real-time data collection, Arduino interface programming, and post-processing analysis with automated visualization and quantitative assessment tools.
+
+### Technical Implementation:
+
+**Data Acquisition Systems:**
+- Q-Arena tracking system with three-marker configuration for motion validation
+- Arduino-based FSR circuit with voltage-to-force conversion algorithms
+- LSM9DS1 IMU integration with I2C communication protocols
+
+**Signal Processing Techniques:**
+- Time domain analysis with statistical characterization (mean, standard deviation, range)
+- FFT implementation with Hann windowing to minimize spectral leakage
+- Frequency domain analysis including dominant frequency identification and phase extraction
+- Digital filter design with bandpass configuration (0.10-0.47 Hz) for noise reduction
+
+**Performance Validation:**
+- Achieved 3.78 dB improvement in Signal-to-Noise Ratio through filtering
+- 38.13% noise variance reduction with 90% energy preservation in passband
+- Cross-validation between optical tracking and bending sensor measurements
+
+### Visuals:
+
+**Figure 1**: Multi-Axis Bending Sensor Data Analysis  
+![Bending Sensor Analysis](/images/bending_sensor_plot.png)
+
+**Figure 2**: Q-Arena Tracking System Validation Data  
+![Q-Arena Tracking](/images/qarena_tracking.png)
+
+**Figure 3**: Force Sensing Resistor Calibration Results  
+![FSR Calibration](/images/fsr_calibration.png)
+
+**Figure 4**: IMU Signal Processing - Time and Frequency Domain Analysis  
+![IMU Signal Processing](/images/imu_signal_analysis.png)
+
+**Figure 5**: Digital Filter Response and Performance Comparison  
+![Filter Analysis](/images/filter_response.png)
+
+### Learning Outcomes:
+
+This project enhanced my understanding of sensor integration, real-time data acquisition systems, and advanced signal processing methodologies. The combination of hardware interfacing with sophisticated software analysis provided valuable experience in complete system development from data collection through final analysis.
+
+**Key Skills**: Digital Signal Processing, Sensor Integration, MATLAB Programming, Arduino Development, FFT Analysis, Digital Filter Design, System Validation, Data Visualization, Statistical Analysis.
