@@ -1,6 +1,6 @@
 ---
 title: "Modelling and Simulation of a Strapped-Down Inertial Measuring Unit (IMU)"
-excerpt: "Developing a SIMULINK model to simulate the navigation equations of a strapped-down IMU and assess flight vehicle navigation principles."
+excerpt: "Developing a SIMULINK model to simulate the navigation equations of a strapped-down IMU and assess flight vehicle navigation principles. <br/><img src='/images/InnerSys.png' width='300'>"
 collection: portfolio
 ---
 
@@ -21,6 +21,11 @@ This project, part of the EMS 716 Advanced Flight Control and Simulation of Aero
 
 ### Learning Outcomes:
 This project enhances my understanding of flight navigation principles and system dynamics while allowing me to delve into error prediction techniques in IMU systems. Additionally, I have gained hands-on experience in MATLAB/SIMULINK, which is instrumental for aerospace control systems.
+
+A Full system diagram can be seen in Figure 1 below.
+
+**Figure 1**: Internal IMU Simulink diagram. 
+![Inner Simulink Diagram](/images/InnerSys.png)
 
 **Key Skills Developed:**
 - **Technical Skills**: Inertial Navigation, SIMULINK, Error Prediction, System Modelling, Flight Dynamics, Quaternion Implementation.
